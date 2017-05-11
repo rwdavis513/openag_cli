@@ -1,0 +1,14 @@
+rostopic echo /sensors/am2315_1/air_humidity/info > ros_air_humidity.txt &
+rostopic echo /sensors/am2315_1/air_humidity/raw > ros_air_humidity_raw.txt &
+rostopic echo /sensors/am2315_1/air_temperature/info > ros_air_temp_info.txt &
+rostopic echo /sensors/am2315_1/air_temperature/raw > ros_air_temp_raw.txt &
+rostopic echo /sensors/atlas_ec_1/water_electrical_conductivity/info > water_ec_info.txt &
+rostopic echo /sensors/atlas_ec_1/water_electrical_conductivity/raw > water_ec_raw.txt &
+rostopic echo /sensors/atlas_ph_1/water_potential_hydrogen/info > water_pot_info.txt &
+rostopic echo /sensors/atlas_ph_1/water_potential_hydrogen/raw > water_pot_raw.txt &
+rostopic echo /sensors/ds18b20_1/temperature/info > temp_info.txt &
+rostopic echo /sensors/ds18b20_1/temperature/raw > temp_info.txt &
+rostopic echo /sensors/mhz16_1/air_carbon_dioxide/info > air_carbon.txt &
+rostopic echo /sensors/mhz16_1/air_carbon_dioxide/raw > air_carbon_raw.txt &
+rostopic echo /sensors/water_level_sensor_high_1/is_on/info > water_level.txt &
+rostopic echo /sensors/water_level_sensor_high_1/is_on/raw > water_level_raw.txt &
